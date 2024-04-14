@@ -1024,6 +1024,13 @@ input[type="checkbox"]:checked+label .checkbox-icon {
 
 @media (min-width: 1158px) {
 
+    .address-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        padding: 24px 0 24px;
+    }
+
     .container {
         max-width: 1158px;
         margin: 0 auto;
