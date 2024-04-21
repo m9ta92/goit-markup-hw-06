@@ -62,7 +62,6 @@ img {
 }
 
 /* MOBILE-MENU */
-
 .mobile-menu {
     display: none;
     flex-direction: column;
@@ -126,7 +125,6 @@ img {
 }
 
 /* HEADER */
-
 .header {
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -238,8 +236,7 @@ img {
     color: #404bbf;
 }
 
-/* HEADER */
-/* Section 1 - Hero image*/
+/* Section 1 - Hero*/
 .section-hero {
     background-color: #2e2f42;
     padding: 72px 0 72px;
@@ -338,7 +335,6 @@ ul li.section-two-li-item {
     color: #434455;
 }
 
-/* Section 2 */
 /* Section 3 - Our team */
 .our-team-section {
     background-color: #F4F4FD;
@@ -433,9 +429,7 @@ ul li.section-two-li-item {
     background-color: #404bbf;
 }
 
-/* Section 3 - Our team */
 /* Section 4 - Our portfolio*/
-
 .our-portfolio {
     padding: 96px 16px 96px 16px;
 }
@@ -516,9 +510,7 @@ ul li.section-two-li-item {
     transform: translateY(0%);
 }
 
-/* Section 4 - Our portfolio*/
 /* FOOTER */
-
 .footer {
     background-color: #2e2f42;
     padding: 96px 16px 96px 16px;
@@ -676,9 +668,7 @@ ul li.section-two-li-item {
     margin-left: 16px;
 }
 
-/* FOOTER */
 /* MODAL-OVERLAY */
-
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -900,9 +890,7 @@ input[type="checkbox"]:checked+label .checkbox-icon {
     border-radius: 4px;
 }
 
-/* MODAL-OVERLAY */
 /* MEDIA */
-
 @media (max-width: 767px) {
     .is-open {
         display: flex;
