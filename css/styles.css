@@ -61,11 +61,14 @@ img {
     overflow: hidden;
 }
 
-/* HEADER */
 /* MOBILE-MENU */
 
-.mobile-menu-container {
+.mobile-menu {
     display: none;
+    flex-direction: column;
+    margin: auto;
+    width: 320px;
+    height: 100vh;
     padding: 24px 24px 40px 16px;
 }
 
@@ -122,7 +125,7 @@ img {
     gap: 40px;
 }
 
-/* MOBILE-MENU */
+/* HEADER */
 
 .header {
     border-bottom: 1px solid #E7E9FC;
@@ -242,7 +245,7 @@ img {
     padding: 72px 0 72px;
     max-height: 432px;
     margin: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-mobile.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/mobile-image/people-office@1x.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -290,7 +293,6 @@ img {
     background-color: #404BBF;
 }
 
-/* Section 1 - Hero image*/
 /* Section 2 */
 .section-two {
     padding: 96px 16px 96px 16px;
@@ -962,7 +964,7 @@ input[type="checkbox"]:checked+label .checkbox-icon {
     .section-hero {
         padding: 112px 0 112px;
         max-height: 436px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office-tablet.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/tablet-image/people-office@1x.jpg');
     }
 
     .section-hero-title {
@@ -1146,7 +1148,7 @@ input[type="checkbox"]:checked+label .checkbox-icon {
         padding-top: 188px;
         padding-bottom: 188px;
         max-height: 600px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office.jpg');
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/desktop-image/people-office@1x.jpg');
     }
 
     .section-hero-title {
@@ -1289,10 +1291,4 @@ input[type="checkbox"]:checked+label .checkbox-icon {
         gap: 4px;
         align-items: center;
     }
-
-    /* MODAL-OVERLAY */
-    /* MODAL-OVERLAY */
 }
-
-/* MEDIA */
-/* MEDIA */
